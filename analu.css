@@ -22,7 +22,7 @@ body {
 .caixa-principal {
     width: 40%;
     height: 40%;
-    margin-left: -1500px;
+    margin-left: 550px;
 }
 
 .caixa-video-mario {
@@ -112,21 +112,19 @@ textarea {
     align-items: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 
-.caixa-principal {
-    width: 100%;
-    height: 100%;
-    display: fixed;
-   
-}
-.analu{
-    width: 10%;
-    height: 18%;
-   
-}
-}
-.caixa-video-mario {
-    
-    opacity: 0.5;
+    .caixa-principal {
+        width: 40%;
+        height: 40%;
+        margin: 0 90px 0 0;
+ 
+    }
+    .analu{
+        width: 100%;
+        height: 40%;
+        padding-left: 50px;
+        align-items: center;
+    }
+
 }
