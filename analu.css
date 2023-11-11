@@ -22,7 +22,7 @@ body {
 .caixa-principal {
     width: 40%;
     height: 40%;
-    margin-left: 550px;
+    margin-right: 500px;
 }
 
 .caixa-video-mario {
@@ -112,7 +112,7 @@ textarea {
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
     .caixa-principal {
         width: 40%;
